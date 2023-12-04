@@ -4,14 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    <div class="bg-container">
+    <div class="container">
+        <div class="image">
+            <img src="img.png" alt="">
+        </div>
+        <div class="signup">
+            <div class="header text">
+                <h3>DevConnect</h3>                
+            </div>
+            <div class="main text">
+                <h1>Join the Ultimate Social Network for Coders!</h1>
+            </div>
+            <div class="discription text">
+                <p>Are you a passionate coder looking for a space to showcase your projects, get inspired, and connect with like-minded developers? Look no further – DevConnect is here to elevate your coding journey!</p>
+            </div>
+            <div class="button">
+                <input type="button" id="button" value="SIGN IN">
+            </div>
+            <div class="social">
+                <div class="social-text text">
+                    <p>Get Social</p>
+                </div>
+                <br>
+                <div class="icons">
+                    <a href=""><img src="insta.png" alt="" class="icon"></a>
+                    <a href=""><img src="facebook.png" alt="" class="icon"></a>
+                    <a href=""><img src="twitter.png" alt="" class="icon"></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="video">
         <video autoplay muted loop plays-inline id="bgVid">
             <source src="bgvid.mp4" type="video/mp4">
         </video>
     </div>
+
+
     
 </body>
+<script>
+    let vid = document.getElementById("bgVid");
+    vid.playbackRate = 0.6;
+    vid.style.opacity="0.95"
+
+</script>
 </html>
 
