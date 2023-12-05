@@ -124,3 +124,16 @@ video {
     }
 }
 
+.input{
+    font-size: 15px;
+    border-radius: 10px;
+    padding:7px;
+    margin:5px;
+    width:100%;
+    color:rgb(63, 14, 109);
+    border:2px solid rgb(63, 27, 107);
+}
+.input-boxes{
+    display: flex;
+    flex-direction: column;
+}
