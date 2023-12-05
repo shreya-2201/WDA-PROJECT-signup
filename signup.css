@@ -76,6 +76,8 @@ video {
 #button:hover{
     cursor: pointer;
     background-color: rgb(72, 21, 72);
+    transition: transform 0.3s linear;
+    transform: translateY(-5px);
 }
 
 .social{
